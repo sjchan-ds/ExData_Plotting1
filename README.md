@@ -113,16 +113,17 @@
 >![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 >
 >
+
 ================================================================================
 ## My work to this assignment
 
 ### The following is the main steps to produce my assignement
 
-* Fork the GitHub repository containing the stub R files at
+* Fork the GitHub repository containing the R files at
   https://github.com/rdpeng/ExData_Plotting1 to create a copy under my own account.
    
   + click "return" button on the keyboard of my PC
-     (Google-Chrome will open a new webpage https://github.com/rdpeng/ProgrammingAssignment2)
+     (Google-Chrome will open a new webpage https://github.com/rdpeng/ExData_Plotting1)
      
   + click the "Fork" button in the GitHub.com rdpeng/ExData_Plotting1 repository
   
@@ -135,20 +136,20 @@
            
 ----------------------------------------------------------    
 * The following steps were performed in a PC running the operation system Window 8.1.
-   The data cleaning processes were performed in  R version 3.0.3
+   The plot files were producted in  R version 3.0.3.
      
-   + download the raw data from the following website:
+   + download the data from the following website:
               https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
       
    + using the following R commands to download the data:
    
-              >setInternet2(TRUE)   
-	      >url_proj <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
-              >download.file(urlproj, destfile="household_power_consumption.zip", mode="wb")
+                  >setInternet2(TRUE)   
+	          >url_proj <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
+                  >download.file(urlproj, destfile="household_power_consumption.zip", mode="wb")
       
-   + unzip the raw data sets
+   + unzip the data set
 
-              >unzip("household_power_consumption.zip")
+                  >unzip("household_power_consumption.zip")
               
    + put the data set in the selected working directory called "ExData_Plotting1"
         that is same name as in a repo in my Github account. 
@@ -165,21 +166,21 @@
    + Produce plot1.png, plot2.png, plot3.png and plot4.png respctively.
    
  ------------------------------------------------------------------
- * Commit my files (plot*.R, plot*.png and readme.md into my git repository and push my 
+ * Commit my files (plot*.R, plot*.png and README.md into my git repository and push my 
    git branch to the GitHub repository under your account.
  
     + Use "git add": take a snapshot for add/update files that are stored in a temporary stage 
     called "index"
     
-      $git add -A . 
+                   $git add -A . 
       
     + Use "git commit": permanently store in the content of the index in my local repo
   
-      $git commit -m "my xxth verison"   
+                   $git commit -m "my xxth verison"   
     
     + Push the permanently stored files in the repo to the GitHub repo (remote repo)
   
-     $git push origin master
+                  $git push origin master
  
 ============================================================================
 
