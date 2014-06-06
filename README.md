@@ -136,7 +136,7 @@
            
 ----------------------------------------------------------    
 * The following steps were performed in a PC running the operation system Window 8.1.
-   The plot files were producted in  R version 3.0.3.
+  The plot files were producted in  R version 3.0.3.
      
    + download the data from the following website:
               https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
@@ -144,7 +144,7 @@
    + using the following R commands to download the data:
    
                   >setInternet2(TRUE)   
-	          >url_proj <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
+	             >url_proj <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
                   >download.file(urlproj, destfile="household_power_consumption.zip", mode="wb")
       
    + unzip the data set
@@ -157,13 +157,14 @@
         
               > getwd()
         
-              [1] "C:/Users/SJ/datacleaningproject"   
+              [1] "C:/Users/SJ/ExData_Plotting1"   
  -----------------------------------------------------------------
  ### Write/Edit plotting codes: plot1.R, plot2.R, plot3.R and plot4.R respectively.
  
- * run the codes:
-   + Cut and paste to run the codes plot1.R, plot2.R, plot3.R and plot4.R respectively.
-   + Produce plot1.png, plot2.png, plot3.png and plot4.png respctively.
+ * Run the codes:
+   Cut and paste to run the codes plot1.R, plot2.R, plot3.R and plot4.R respectively.
+   
+ * Produce plot1.png, plot2.png, plot3.png and plot4.png respctively.
    
  ------------------------------------------------------------------
  * Commit my files (plot*.R, plot*.png and README.md into my git repository and push my 
